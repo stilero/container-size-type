@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Search">
+		<help
+			key = "SearchLIST_DESC"
+		/>
+		<message>
+			<![CDATA[SearchLIST_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Search Layout</name>
+		<description>Search Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

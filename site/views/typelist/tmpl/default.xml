@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Typelist">
+		<help
+			key = "TypeLIST_DESC"
+		/>
+		<message>
+			<![CDATA[TypeLIST_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Type List Layout</name>
+		<description>Type List Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

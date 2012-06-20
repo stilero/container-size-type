@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Typegrouplist">
+		<help
+			key = "TypegroupLIST_DESC"
+		/>
+		<message>
+			<![CDATA[TypegroupLIST_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Typegroup List Layout</name>
+		<description>Typegroup List Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

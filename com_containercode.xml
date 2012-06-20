@@ -1,0 +1,74 @@
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" method="upgrade" version="1.5.0">
+	<name>Containercode</name>
+	<creationDate>2012-03-16</creationDate>
+	<author>Daniel Eliasson Stilero Webdesign</author>
+	<authorEmail>joomla@stilero.com</authorEmail>
+	<authorUrl>http://www.stilero.com</authorUrl>
+	<copyright>Copyright (C) 2012 Daniel Eliasson Stilero Webdesign Open Source Matters. All rights reserved.</copyright>	
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.02</version>
+	<description>A component for searching container ISO codes</description>
+	<installfile></installfile>
+	<uninstallfile></uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+            <filename>containercode.php</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>			
+            <filename>router.php</filename>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>assets</folder>			
+	</files>	
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_containercode.ini</language>
+                <language tag="de-DE">language/de-DE.com_containercode.ini</language>
+                <language tag="sv-SE">language/sv-SE.com_containercode.ini</language>
+	</languages>
+	<administration>
+		<menu link="index.php?option=com_containercode">Containercode</menu>
+			<submenu>
+		  <menu link="option=com_containercode&amp;view=firstchar">Firstchar</menu>
+		  <menu link="option=com_containercode&amp;view=secondchar">Secondchar</menu>
+		  <menu link="option=com_containercode&amp;view=type">Type</menu>
+		  <menu link="option=com_containercode&amp;view=typegroup">Typegroup</menu>
+
+			</submenu>
+		<files folder="admin">
+			<filename>config.xml</filename>
+			<filename>admin.containercode.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>access.xml</filename>			
+			<folder>assets</folder>
+			<folder>elements</folder>		
+			<folder>joomla</folder>						
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>			
+			<folder>tables</folder>
+			<folder>views</folder>									
+		</files>	
+        <languages folder="admin">
+        	<language tag="en-GB">language/en-GB.com_containercode.ini</language>
+                <language tag="de-DE">language/de-DE.com_containercode.ini</language>
+        	<language tag="en-GB">language/en-GB.com_containercode.sys.ini</language>
+                <language tag="de-DE">language/de-DE.com_containercode.sys.ini</language>
+                <language tag="sv-SE">language/sv-SE.com_containercode.sys.ini</language>
+                <language tag="sv-SE">language/sv-SE.com_containercode.ini</language>
+		</languages>		
+	</administration>
+</install>

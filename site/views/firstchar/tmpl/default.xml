@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Firstchar">
+		<help
+			key = "Firstchar_DESC"
+		/>
+		<message>
+			<![CDATA[Firstchar_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Firstchar Layout</name>
+		<description>Firstchar Layout_DESC</description>	
+		<url addpath="/administrator/components/com_containercode/elements">
+			<param name="id" type="firstchar" default="0" label="Select Firstchar" description="A Firstchar" />
+		</url>
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_containercode/models/fields"
+		>
+			<field name="id"
+				type="containercodefirstchar"
+				description="Firstchar_SELECT_DESC"
+				label="Select Firstchar"
+				required="true"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

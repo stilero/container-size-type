@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Secondchar">
+		<help
+			key = "Secondchar_DESC"
+		/>
+		<message>
+			<![CDATA[Secondchar_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Secondchar Layout</name>
+		<description>Secondchar Layout_DESC</description>	
+		<url addpath="/administrator/components/com_containercode/elements">
+			<param name="id" type="secondchar" default="0" label="Select Secondchar" description="A Secondchar" />
+		</url>
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_containercode/models/fields"
+		>
+			<field name="id"
+				type="containercodesecondchar"
+				description="Secondchar_SELECT_DESC"
+				label="Select Secondchar"
+				required="true"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

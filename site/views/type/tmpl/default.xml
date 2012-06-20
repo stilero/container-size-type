@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Type">
+		<help
+			key = "Type_DESC"
+		/>
+		<message>
+			<![CDATA[Type_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Type Layout</name>
+		<description>Type Layout_DESC</description>	
+		<url addpath="/administrator/components/com_containercode/elements">
+			<param name="id" type="type" default="0" label="Select Type" description="A Type" />
+		</url>
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_containercode/models/fields"
+		>
+			<field name="id"
+				type="containercodetype"
+				description="Type_SELECT_DESC"
+				label="Select Type"
+				required="true"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>
